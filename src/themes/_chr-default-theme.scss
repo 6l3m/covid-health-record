@@ -1,0 +1,10 @@
+$chr-default-primary: mat-palette($mat-indigo);
+$chr-default-accent: mat-palette($mat-pink, A200, A100, A400);
+
+$chr-default-warn: mat-palette($mat-red);
+
+$chr-default-theme: mat-light-theme(
+  $chr-default-primary,
+  $chr-default-accent,
+  $chr-default-warn
+);

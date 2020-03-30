@@ -1,11 +1,10 @@
-/* You can add global styles to this file, and also import other style files */
 @import '~@angular/material/theming';
+
+@import 'themes/chr-default-theme';
 
 @import 'app/shared/components/header/header-theme';
 
-.header--container {
-  color: mat-color($primary);
-}
+@include header-theme($chr-default-theme);
 
 html,
 body {

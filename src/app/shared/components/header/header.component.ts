@@ -1,15 +1,16 @@
 import { Component, OnInit } from '@angular/core';
 
+import { faHandHoldingMedical } from '@fortawesome/free-solid-svg-icons';
+
 @Component({
-  selector: 'app-header',
+  selector: 'chr-header',
   templateUrl: './header.component.html',
   styleUrls: ['./header.component.scss']
 })
 export class HeaderComponent implements OnInit {
+  faHandHoldingMedical = faHandHoldingMedical;
 
-  constructor() { }
+  constructor() {}
 
-  ngOnInit(): void {
-  }
-
+  ngOnInit(): void {}
 }

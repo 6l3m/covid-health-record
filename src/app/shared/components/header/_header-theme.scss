@@ -1,1 +1,8 @@
-@import '~@angular/material/theming';
+@mixin header-theme($theme) {
+  $primary: map-get($theme, primary);
+
+  .header--container {
+    background-color: mat-color($primary);
+    color: mat-color($primary, 'default-contrast');
+  }
+}
