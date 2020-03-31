@@ -10,6 +10,8 @@ import { faHandHoldingMedical } from '@fortawesome/free-solid-svg-icons';
 export class HeaderComponent implements OnInit {
   faHandHoldingMedical = faHandHoldingMedical;
 
+  title = 'Covid Health Record';
+
   constructor() {}
 
   ngOnInit(): void {}
